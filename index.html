@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+<body>
+    <h1>Programación Orientada a Objetos en JavaScript</h1>
+    <!-- Botones de navegación -->
+    <header>
+        <button id="Home" onclick="ROUTER.load('home')">Home </button>
+        <button id="About" onclick="ROUTER.load('about')">About</button>
+        <button id="Contact" onclick="ROUTER.load('contact')">Contact</button>
+    </header
+    >
+    <!-- Aquí es donde se insertará el contenido según la página en la que nos encontremos -->
+    <div id="content"></div>
+
+    <h1>Precio</h1>
+    <h3>
+      <p><em id="price">$0.00</em></p>
+    </h3>
+
+    <input id="value" />
+    <input id="value1" />
+    
+</body>
+<script src="./observables/observer.js"></script>
+<script src="./src/reserva.js"></script>
+<script src="./src/Formulario.js"></script>
+<script src="./src/Reser.js"></script>
+<script src="./observables/ejemplo.js"></script>
+<script src="./observables/suscriptores.js"></script>
+<script src="Account.js"></script>
+<script src="Car.js"></script>
+<script src="./router/router.js"></script>
+<script src="index.js"></script>
+</html>
